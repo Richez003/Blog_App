@@ -6,7 +6,6 @@ RSpec.describe 'Users', type: :request do
     it 'it renders succesfully' do
       expect(response).to have_http_status(:ok)
     end
-
     it "it shows the 'index' template correctly" do
       expect(response).to render_template('index')
     end
