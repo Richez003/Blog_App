@@ -16,6 +16,7 @@ RSpec.describe 'Posts', type: :request do
           end
     end
 
+    require 'rails_helper
     context  'GET #show' do
         before(:each) { get '/users/1/posts/1' } # gets(:show, params: { id: 2 })
         it 'it renders succesfully' do
