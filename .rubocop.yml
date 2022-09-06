@@ -27,6 +27,8 @@ Metrics/ClassLength:
 Metrics/BlockLength:
   IgnoredMethods: ['describe']
   Max: 30
+Layout/EndOfLine:
+  Enabled: false
 
 Style/Documentation:
   Enabled: false
@@ -57,6 +59,4 @@ Style/HashEachMethods:
 Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
-  Enabled: false
-Layout/EndOfLine:
   Enabled: false
